@@ -1,0 +1,438 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left {
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.right {
+    float: right;
+}
+
+.navbar {
+    position: relative;
+    margin-top: 40px;
+    right: 100px;
+    display: inline-block;
+    width: 500px;
+
+}
+
+.navbar li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 9px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.head h1 {
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 100px;
+    display: inline-block;
+    padding: 15px;
+    margin-right: 0px;
+}
+
+#jyo {
+    font-size: 50px;
+    margin-left: 0px;
+    color: red;
+}
+
+.content p {
+    margin-top: 10px;
+    margin-left: 120px;
+    display: inline-block;
+}
+
+.image img {
+    float: right;
+    height: 500px;
+    width: 500px;
+    margin-right: 100px;
+    margin-top: -220px;
+}
+
+.aboutme h1 {
+    font-size: 35px;
+    margin-top: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme h2 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutme h3 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.aboutme p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.aboutme input {
+    font-size: 20px;
+    padding: 3px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-left: 655px;
+    cursor: pointer;
+}
+
+.aboutme input:hover {
+    text-decoration: underline solid white;
+}
+
+.services h1 {
+    font-size: 35px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services h2 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#service1,
+#service2,
+#service3 {
+    border: 3px solid black;
+    display: inline-block;
+    padding: 40px;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+#service1 {
+    height: 150px;
+    width: 200px;
+    text-align: justify;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left: 136px;
+    margin-top: 50px;
+}
+
+#service2 {
+    height: 176px;
+    width: 336px;
+    text-align: justify;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#service3 {
+    height: 150px;
+    width: 200px;
+    text-align: justify;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#service1 h2,
+#service2 h2,
+#service3 h2 {
+    text-align: center;
+
+}
+
+#service1 h2:hover {
+    text-decoration: underline;
+}
+
+#service2 h2:hover {
+    text-decoration: underline;
+}
+
+#service3 h2:hover {
+    text-decoration: underline;
+}
+
+#service1:hover {
+    background-color: cornflowerblue;
+    color: black;
+}
+
+#service2:hover {
+    background-color: cornflowerblue;
+    color: black;
+}
+
+#service3:hover {
+    background-color: cornflowerblue;
+    color: black;
+}
+
+.performance h1 {
+    font-size: 35px;
+    margin-top: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.performance h2 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.performance h3 {
+    font-size: 25px;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+
+.performance p {
+    margin-left: 120px;
+    margin-top: 40px;
+    width: 500px;
+}
+
+.table {
+    text-align: center;
+    float: right;
+    margin-right: 150px;
+    margin-top: -145px;
+}
+
+.table th {
+    padding: 21px 92px;
+    background-color: rgb(175, 193, 220);
+}
+
+.table td {
+    color: white;
+    background-color: rgb(110, 116, 145);
+}
+
+#btn input {
+    font-size: 20px;
+    padding: 3px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    margin-top: 22px;
+    margin-left: 124px;
+    cursor: pointer;
+}
+
+#btn input:hover {
+    text-decoration: underline solid white;
+}
+
+.teams h1 {
+    font-size: 35px;
+    margin-top: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teams h2 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sirisha img {
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+    border: 3px solid rgb(48, 35, 124);
+    margin-left: 123px;
+    margin-top: 139px;
+}
+
+.sai img {
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+    border: 3px solid rgb(48, 35, 124);
+    margin-left: 363px;
+    margin-top: -244px;
+}
+
+.ashu img {
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+    border: 3px solid rgb(48, 35, 124);
+    margin-left: 609px;
+    margin-top: -195px
+}
+
+.ile img {
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+    border: 3px solid rgb(48, 35, 124);
+    margin-left: 857px;
+    margin-top: -195px
+}
+
+.bhava img {
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+    border: 3px solid rgb(48, 35, 124);
+    margin-left: 1105px;
+    margin-top: -195px
+}
+
+.names {
+    font-style: italic;
+    padding: auto;
+}
+
+#name1 {
+    margin-top: -80px;
+    margin-left: 192px;
+}
+
+#name2 {
+    margin-top: -9px;
+    margin-left: 416px;
+}
+
+#name3 {
+    margin-top: -9px;
+    margin-left: 666px;
+}
+
+#name4 {
+    margin-top: -1px;
+    margin-left: 920px;
+}
+
+#name5 {
+    margin-top: -1px;
+    margin-left: 1167px;
+}
+
+.contact h1 {
+    font-size: 35px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2 {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info #t1 {
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 125px;
+}
+
+.info #t2 {
+    font-size: 20px;
+    margin-top: -42px;
+    margin-right: 583px;
+    text-align: right;
+}
+
+.info form {
+    float: right;
+    font-size: 18px;
+    margin-right: 292px;
+    margin-top: 15px;
+}
+
+.info #fname {
+    padding: 10px 18px;
+    height: 25px;
+    width: 160px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.info #lname {
+    padding: 10px 18px;
+    height: 25px;
+    width: 160px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#email {
+    padding: 10px 18px;
+    height: 25px;
+    width: 367px;
+    border-radius: 4px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+#subject {
+    padding: 10px 18px;
+    height: 46px;
+    width: 367px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+#msg {
+    padding: 10px 18px;
+    height: 46px;
+    width: 367px;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.Name {
+    margin-top: 90px;
+    margin-left: 120px;
+}
